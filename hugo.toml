@@ -11,8 +11,24 @@ name = "USCC team"
 email = "computerClubStirling@gmail.com"
 url = "https://github.com/orgs/Stirling-USSC/people"
 
-[module]
+[menu]
+  [[menu.social]]
+  identifier = "instagram"
+  name = "Instagram (ussc.io)"
+  weight = -70
+  url = "https://www.instagram.com/ussc.io/"
+  [[menu.social]]
+  identifier = "github"
+  name = "Github (stirling-ussc)"
+  weight = -50
+  url = "https://github.com/stirling-ussc"
+  [[menu.social]]
+  identifier = "discord"
+  name = "Discord (USSC server)"
+  weight = -30
+  url = "https://discord.gg/DZnAvAnhKD"
 
-[[module.imports]]
-path = "github.com/lower-elements/elemental"
-disable=false
+[module]
+    [[module.imports]]
+    path = "github.com/lower-elements/elemental"
+    disable=false
