@@ -3,6 +3,11 @@ baseURL = "https://stirlingcomputer.club"
 languageCode = "en-gb"
 theme = ["github.com/lower-elements/elemental"]
 
+[params.author]
+name = "USCC team"
+email = "computerClubStirling@gmail.com"
+url = "https://github.com/orgs/Stirling-USSC/people"
+
 [module]
 
 [[module.imports]]
