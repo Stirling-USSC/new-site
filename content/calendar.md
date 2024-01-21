@@ -8,7 +8,9 @@ menu: main
 weight: -90
 ---
 
-Keep up with all the sessions and events we're running with our handy [event calendar][calendar-link]. You can also
+Keep up with all the sessions and events we're running with our handy [event calendar][calendar-link].
+<!--more-->
+You can also
 [subscribe to this calendar in iCal format][ical], on your computer or mobile device, to receive notifications for
 events.
 

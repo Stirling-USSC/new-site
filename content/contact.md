@@ -10,6 +10,8 @@ weight: -80
 
 Stay up to date with the latest happenings at the USCC!
 
+<!--more-->
+
 * Connect with us on [Instagram (@uscc.club)](https://www.instagram.com/uscc.club/)
 * See the code we're writing on [Github (stirling-ussc)](https://github.com/stirling-ussc)
 * Join the conversation on our [Discord (USCC server)](https://discord.gg/DZnAvAnhKD)
