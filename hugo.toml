@@ -8,15 +8,15 @@ shortTitle = "USCC"
 
 [params.author]
 name = "USCC team"
-email = "computerClubStirling@gmail.com"
+email = "committee@stirlingcomputer.club"
 url = "https://github.com/orgs/Stirling-USSC/people"
 
 [menu]
   [[menu.social]]
   identifier = "instagram"
-  name = "Instagram (ussc.io)"
+  name = "Instagram (uscc.club)"
   weight = -70
-  url = "https://www.instagram.com/ussc.io/"
+  url = "https://www.instagram.com/uscc.club"
   [[menu.social]]
   identifier = "github"
   name = "Github (stirling-ussc)"
