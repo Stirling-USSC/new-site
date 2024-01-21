@@ -5,6 +5,10 @@ theme = ["github.com/lower-elements/elemental"]
 
 [params]
 shortTitle = "USCC"
+description = """
+We're the USCC, the University of Stirling's computing society. Join us to learn about trending technological topics,
+get insight into what's popular at the moment in tech, and most of all, meet awesome people with similar interests.
+"""
 
 [params.author]
 name = "USCC team"
