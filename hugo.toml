@@ -28,7 +28,7 @@ url = "https://github.com/orgs/Stirling-USSC/people"
   url = "https://github.com/stirling-ussc"
   [[menu.social]]
   identifier = "discord"
-  name = "Discord (USSC server)"
+  name = "Discord (USCC server)"
   weight = -30
   url = "https://discord.gg/DZnAvAnhKD"
 
