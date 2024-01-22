@@ -18,6 +18,11 @@ url = "https://github.com/orgs/Stirling-USSC/people"
 [menu]
 
   [[menu.main]]
+  identifier = "linktree"
+  name = "Links"
+  weight = -10
+  url = "https://linktr.ee/stirlingcomputerclub"
+  [[menu.main]]
   identifier = "membership"
   name = "Buy Membership"
   weight = 0
