@@ -16,6 +16,13 @@ email = "committee@stirlingcomputer.club"
 url = "https://github.com/orgs/Stirling-USSC/people"
 
 [menu]
+
+  [[menu.main]]
+  identifier = "membership"
+  name = "Buy Membership"
+  weight = 0
+  url = "https://www.stirlingstudentsunion.com/societies/6155/"
+
   [[menu.social]]
   identifier = "instagram"
   name = "Instagram (uscc.club)"
