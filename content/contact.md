@@ -15,5 +15,5 @@ Stay up to date with the latest happenings at the USCC!
 * Connect with us on [Instagram (@uscc.club)](https://www.instagram.com/uscc.club/)
 * See the code we're writing on [Github (stirling-ussc)](https://github.com/stirling-ussc)
 * Join the conversation on our [Discord (USCC server)](https://discord.gg/DZnAvAnhKD)
-* Sign up for our newsletter using the form below
 * Send us an [email (committee@stirlingcomputer.club)](mailto:committee@stirlingcomputer.club)
+* Sign up for our newsletter using the form below
