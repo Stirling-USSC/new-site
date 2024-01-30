@@ -30,9 +30,9 @@ url = "https://github.com/orgs/Stirling-USSC/people"
 
   [[menu.social]]
   identifier = "instagram"
-  name = "Instagram (uscc.club)"
+  name = "Instagram (stirlingcomputerclub)"
   weight = -70
-  url = "https://www.instagram.com/uscc.club"
+  url = "https://www.instagram.com/computerclubstirling"
   [[menu.social]]
   identifier = "github"
   name = "Github (stirling-ussc)"
