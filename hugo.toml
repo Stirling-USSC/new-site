@@ -39,9 +39,14 @@ url = "https://github.com/orgs/Stirling-USSC/people"
   weight = -50
   url = "https://github.com/stirling-ussc"
   [[menu.social]]
+  identifier = "whatsapp"
+  name = "WhatsApp group"
+  weight = -30
+  url = "https://chat.whatsapp.com/CeAfqpJUujo6IZIoJ8iMbG"
+  [[menu.social]]
   identifier = "discord"
   name = "Discord (USCC server)"
-  weight = -30
+  weight = -20
   url = "https://discord.gg/DZnAvAnhKD"
 
 [module]
