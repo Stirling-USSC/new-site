@@ -13,7 +13,7 @@ get insight into what's popular at the moment in tech, and most of all, meet awe
 [params.author]
 name = "USCC team"
 email = "committee@stirlingcomputer.club"
-url = "https://github.com/orgs/Stirling-USSC/people"
+url = "https://github.com/orgs/Stirling-uscc/people"
 
 [menu]
 
@@ -35,9 +35,9 @@ url = "https://github.com/orgs/Stirling-USSC/people"
   url = "https://www.instagram.com/computerclubstirling"
   [[menu.social]]
   identifier = "github"
-  name = "Github (stirling-ussc)"
+  name = "Github (stirling-uscc)"
   weight = -50
-  url = "https://github.com/stirling-ussc"
+  url = "https://github.com/stirling-uscc"
   [[menu.social]]
   identifier = "whatsapp"
   name = "WhatsApp group"
