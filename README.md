@@ -1,4 +1,4 @@
-# uscc Site
+# USCC Site
 
 The website for the University of Stirling Computer Club, built with [Hugo][hugo], using the [Elemental hugo
 theme][elemental].
