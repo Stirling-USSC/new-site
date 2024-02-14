@@ -561,6 +561,8 @@ Page 1<hr>Page 2
 16. ### `<table>`
    - Defines the beginning of a table.
 
+<br>
+
 17. ### `<tr>`
    - Represents a table row. Should be used within the `<table>` element.
 
