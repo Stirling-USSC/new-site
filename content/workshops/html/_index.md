@@ -244,7 +244,7 @@ All modern HTML documents have this structure:
 
 ---
 
-4. `<meta charset="UTF-8">`: Sets the document's characterset to Unicode (UTF-8). This allows all unicode characters to
+4. `<meta charset="UTF-8">` Sets the document's characterset to Unicode (UTF-8). This allows all unicode characters to
    be used in the document
 5. ` <title>My Awesome Webpage</title>`: Sets the document title (displayed in the browser's title bar and / or tab)
 6. `<body>`: Surrounds all visible content of the document. The majority of your content will go here
@@ -312,7 +312,7 @@ As noted earlier, the `<body>` contains the document's visible content.
 
 ### Inline vs Block Elements
 
-Some elements, like `<p>`, `<section`>`, and `<ul>` are considered "block elements". This means they cause a break in
+Some elements, like `<p>`, `<section`>, and `<ul>` are considered "block elements". This means they cause a break in
 the flow of the text. For example:
 
 ```html
@@ -327,7 +327,7 @@ of paragraphs.
 
 ---
 
-Other elements, such as `<strong></strong>`, `<em></em>`, and `<u></u>` render inline (I.E. they don't interrupt the flow of text):
+Other elements, such as `<strong>`, `<em>`, and `<u>` render inline (I.E. they don't interrupt the flow of text):
 
 ```html
 I <em>love</em> writing <strong>HTML</strong> code!
