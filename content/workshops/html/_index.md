@@ -6,7 +6,7 @@ outputs: [Reveal]
 
 <style>
 code {
-font-size: 0.8rem;
+font-size: 70%;
 }
 </style>
 
