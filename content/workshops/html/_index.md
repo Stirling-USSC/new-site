@@ -913,13 +913,25 @@ Each child element of a flex container becomes a flex item. You can adjust the s
 
 ## Creating a Repository
 
+* Go to <https://github.com>, sign in and click "new" followed by "new repository"
+* Name your repository `<username>.github.io`, for example, my username is `mcb2003`, so my repo is called
+  `mcb2003.github.io`
+* Choose to create a public repository, and add a README
+* Click "create repository"
+
 --------
 
 ## Commit Your Code
 
+* On your new repository's home page, click "creating a new file"
+* Name your file "index.html" (this is the default name for the homepage of your site
+* Paste your code into the file, then click "commit changes"
+* Modify the commit message if you'd like, then click "commit changes" once again
+
 --------
 
 ## Enable Github Pages
+
 Now we will teach you how to [Create a GitHub pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 This lets you publish your website on the internet using GitHub pages to host it.
 
@@ -939,10 +951,5 @@ Right. Now, how to create a GitHub pages site for your website from your GitHub 
 --------
 
 ## View Your site!
-
-{{% /section %}}
-{{% section %}}
-
-# Conclusion
 
 {{% /section %}}
