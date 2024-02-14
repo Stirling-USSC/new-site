@@ -4,6 +4,12 @@ date: 2024-01-16
 outputs: [Reveal]
 ---
 
+<style>
+code {
+font-size: 0.8rem;
+}
+</style>
+
 {{% section %}}
 
 # Introduction
