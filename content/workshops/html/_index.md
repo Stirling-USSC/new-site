@@ -705,45 +705,196 @@ There are many other CSS selectors covering more specific use cases, but the one
 
 ## Common Properties
 
-border
-fonts
-background
-background-image
-text-align
-font-size
-width
-height
+border:
+    - The border property is used to create a border around an element on a webpage. You can specify the border width, style, and color.
+    - `border: 2px solid #3498db`
+fonts:
+    - The font-family property sets the font for text on a webpage. You can specify multiple fonts in case the preferred one isn't available.
+    - `font-family: 'Arial', sans-serif;`
+
+background:
+    - The background property sets the background color for an element on a webpage.
+    - `background: #f2f2f2;`
+
+background-image:
+    - The background-image property sets an image as the background for an element.
+    - `background-image: url('background.jpg');`
+
+text-align:
+    - The text-align property is used to set the horizontal alignment of text within an element.
+    - `text-align: center;`
+
+font-size:
+    - The font-size property sets the size of the text within an element.
+    - `font-size: 16px;`
+
+width:
+    - The width property sets the width of an element.
+    - `width: 300px;`
+
+height:
+    - The height property sets the height of an element.
+    - `height: 200px;`
 
 --------
 
 ## CSS Colour Values
 
 CSS `color`- properties can be set in multiple ways -
-   -  By color names
-   -  As RGB values
-   -  As hexadecimal values
+
+Hexadecimal:
+    - Colors can be represented using a hexadecimal code, a combination of six characters (0-9 and A-F) representing Red, Green, and Blue values.
+    - `color: #ff5733;`
+
+RGB:
+    - The RGB (Red, Green, Blue) model allows you to specify colors by indicating the intensity of each color component.
+    - `color: rgb(255, 87, 51);`
+
+Color Names:
+    - CSS provides predefined color names, such as red, blue, or green, making it easy to use without memorizing codes.
+    - `color: green;`
+
+RGBA:
+    - Similar to RGB, RGBA includes an Alpha channel to control the opacity of the color, ranging from 0 (transparent) to 1 (opaque).
+    - `color: rgba(255, 0, 0, 0.5);`
 
 --------
 
 ## Gradients
 
+CSS gradients provide a smooth transition between two or more specified colors. They allow you to create beautiful backgrounds or apply color effects without using images.
+
+There are several types of CSS gradients -
+
+Linear Gradients:
+    - A linear gradient creates a gradient effect along a straight line. You specify the starting and ending points, and the browser generates a smooth transition between the colors.
+
+```css
+.linear-gradient {
+  background: linear-gradient(to right, #ff5733, #3498db);
+}
+```
+
+Radial Gradients:
+    - Radial gradients create a circular gradient effect, radiating from a center point to the outer edges. You can control the shape and size of the gradient.
+
+```css
+.radial-gradient {
+  background: radial-gradient(circle, #ff5733, #3498db);
+}
+```
+
+Color Stops:
+    - Color stops allow you to define specific color points within the gradient. You can create more complex gradients by adding multiple color stops.
+
+```css
+.color-stops {
+  background: linear-gradient(to right, #ff5733 20%, #3498db 50%, #2ecc71 80%);
+}
+```
+
+Directional Gradients:
+    - For linear gradients, you can specify the direction of the gradient using keywords like to right, to left, to bottom, to top, or angles like 45deg.
+
+```css
+.directional-gradient {
+  background: linear-gradient(45deg, #ff5733, #3498db);
+}
+```
+
+Repeating Gradients:
+    - The repeating-linear-gradient and repeating-radial-gradient functions allow you to create a gradient pattern that repeats at regular intervals.
+
+```css
+.repeating-gradient {
+  background: repeating-linear-gradient(45deg, #ff5733, #3498db 20%);
+}
+```
+
 --------
 
 ## Spacing, Units
+
+Pixels (px):
+    - Pixels are a fixed unit of measurement. They provide a precise size, but they don't scale well on different devices.
+    - `margin: 10px;`
+
+Percentage (%):
+    - Percentages are relative to the parent element's size. Useful for creating responsive designs.
+    - `width: 50%;`
+
+em:
+    - The em unit is relative to the font-size of the element or its parent. It's great for maintaining scalability in responsive designs.
+    - `padding: 2em;`
+
+rem:
+    - Similar to em, but relative to the root element's font-size. It ensures consistent scaling across the entire page.
+    - `margin: 1rem;`
 
 --------
 
 ## Positioning With position/margin/padding
 
---------
+padding:
+    - The padding property adds space inside the boundaries of an element. It helps control the spacing between the content and the border of the element.
+    - `padding: 10px;`
 
-padding
 margin
+    - The margin property adds space outside the boundaries of an element. It controls the spacing between the element and its neighboring elements.
+    - `margin: 20px;`
+
 position
+    - The position property determines how an element is positioned on a webpage. It can be set to relative, absolute, fixed, or static.
+    - `position: relative;`
 
 --------
 
 ## Basic Layout with CSS Flexbox
+
+Flexbox, short for Flexible Box, is a layout model in CSS that allows you to design complex layouts more efficiently and with less code. It provides a way to distribute space and align items within a container, even when their size is unknown or dynamic.
+
+To use Flexbox, you first designate a container as a flex container by applying display: flex; to it. This property turns all direct children of the container into flexible items.
+
+```css
+.flex-container {
+  display: flex;
+}
+```
+
+The flex-direction property defines the direction in which the flex items are placed in the flex container. It can be set to row, column, row-reverse, or column-reverse.
+
+```css
+.flex-container {
+  display: flex;
+  flex-direction: row; /* or column, row-reverse, column-reverse */
+}
+```
+
+The align-items property aligns flex items along the cross-axis. It can be set to flex-start, flex-end, center, stretch, or baseline.
+
+```css
+.flex-container {
+  display: flex;
+  align-items: center; /* or flex-start, flex-end, stretch, baseline */
+}
+```
+
+The justify-content property aligns flex items along the main axis. It can be set to flex-start, flex-end, center, space-between, space-around, or space-evenly.
+
+```css
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* or flex-start, flex-end, center, space-around, space-evenly */
+}
+```
+
+Each child element of a flex container becomes a flex item. You can adjust the size of flex items using properties like flex-grow, flex-shrink, and flex-basis.
+
+```css
+.flex-item {
+    flex: 1; /* shorthand for flex-grow, flex-shrink, and flex-basis */
+}
+```
 
 --------
 
