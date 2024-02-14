@@ -4,7 +4,11 @@ date: 2024-01-16
 outputs: [Reveal]
 ---
 
+{{% section %}}
+
 # Introduction
+
+--------
 
 ## How Web Pages Work
 
@@ -29,6 +33,8 @@ detail in a [later workshop][http-workshop].
 The web-server then responds with instructions on how to build the page. There instructions are written in HTML, CSS,
 and JavaScript, and these are the three technologies we will be teaching you how to write today.
 
+--------
+
 ## The Roles of HTML, CSS and JavaScript
 
 HTML
@@ -47,7 +53,13 @@ JavaScript
 
 : Allows interactivity on webpages by allowing website authors to run code within the user's browser.
 
+{{% /section %}}
+
+{{% section %}}
+
 # HTML -- Describing Structure
+
+--------
 
 ## Introduction
 
@@ -69,6 +81,8 @@ All valid HTML documents have a set structure, shown below:
 </html>
 ```
 
+--------
+
 ## Syntax
 
 The syntax of HTML is almost identical to that of [XML][xml], though modern HTML5 is specified as a separate standard.
@@ -81,7 +95,9 @@ HTML is composed of:
 * Tag attributes
 * Static text
 
-## Comments
+--------
+
+### Comments
 
 Comments in HTML are started by writing `<!--` and finished by writing `-->`. The browser ignores comments entirely,
 they're useful for explaining your code to others, or even yourself. 😛
@@ -92,7 +108,9 @@ they're useful for explaining your code to others, or even yourself. 😛
      like this -->
 ```
 
-## Tags
+--------
+
+### Tags
 
 Tags are the fundamental building block of HTML. Each tag has a distinct name and purpose, for example, the `<title>`
 tag allows you to specify the page's title (what appears on the tab):
@@ -103,7 +121,7 @@ tag allows you to specify the page's title (what appears on the tab):
 
 Tags are opened by writing `<tagname>`, and closed by writing `</tagname>`. 
 
-### Nesting Tags
+#### Nesting Tags
 
 Between the opening and closing tags, you can write static text, or nest other tags, like in the following example:
 
@@ -127,7 +145,9 @@ Renders as:
 This is some text\
 with a line break in it.
 
-## Attributes
+--------
+
+### Attributes
 
 Some tags allow you to specify attributes (additional information used to render the tag). For example, you can specify
 the URL to navigate to when the user clicks a link:
@@ -141,7 +161,9 @@ value `https://stirlingcomputer.club`. The displayed link text will be `USCC Web
 
 [USCC Website](https://stirlingcomputer.club)
 
-## Static Text
+--------
+
+### Static Text
 
 Text can be placed anywhere inside the document, but how it's displayed depends on which tags surround it.
 
@@ -171,6 +193,8 @@ Renders as:
     This is line 1
     This        is line     2
 
+--------
+
 ## Basic Structure
 
 All modern HTML documents have this structure:
@@ -199,6 +223,8 @@ All modern HTML documents have this structure:
    be used in the document
 5. ` <title>My Awesome Webpage</title>`: Sets the document title (displayed in the browser's title bar and / or tab)
 6. `<body>`: Surrounds all visible content of the document. The majority of your content will go here
+
+--------
 
 ## Common Head Tags
 
@@ -239,9 +265,13 @@ the HTML page:
 11. ### `<base href="https://example.com/">`
     - Sets the base URL for all relative URLs within the document, providing a reference point for resource links.
 
+--------
+
 ## Body -- Defining the Page's Content
 
 As noted earlier, the `<body>` contains the document's visible content.
+
+--------
 
 ### Inline vs Block Elements
 
@@ -578,6 +608,8 @@ Page 1<hr>Page 2
   </tfoot>
 </table>
 
+--------
+
 ## Structural Tags
 
 These structural tags provide a semantic and meaningful way to structure the content of a webpage. By using these tags
@@ -601,15 +633,26 @@ appropriately, you enhance the readability, accessibility, and search engine opt
 6. ### `<aside>`
    - Represents content that is tangentially related to the content around it, such as a sidebar or a pull quote. It can also be used for content like related links or advertisements.
 
+--------
+
 ## Exercise
 
+{{% /section %}}
+{{% section %}}
+
 # CSS -- Styling and Themeing Elements
+
+--------
 
 ## Introduction
 
 While HTML describes the *content* of the document and how it is *structure*ed, CSS tells your browser how to *style* said content.
 
+--------
+
 ## Linking a Style Sheet in HTML
+
+--------
 
 ## Syntax
 
@@ -630,6 +673,8 @@ CSS rules are laid out as follows --
 ```
 
 and so on.
+
+--------
 
 ## CSS Selectors
 
@@ -656,6 +701,8 @@ Descendent: `ul a`
 
 There are many other CSS selectors covering more specific use cases, but the ones covered are the most used/important. For full details on CSS selectors refer to: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 
+--------
+
 ## Common Properties
 
 border
@@ -667,6 +714,8 @@ font-size
 width
 height
 
+--------
+
 ## CSS Colour Values
 
 CSS `color`- properties can be set in multiple ways -
@@ -674,27 +723,50 @@ CSS `color`- properties can be set in multiple ways -
    -  As RGB values
    -  As hexadecimal values
 
+--------
+
 ## Gradients
+
+--------
 
 ## Spacing, Units
 
+--------
+
 ## Positioning With position/margin/padding
+
+--------
 
 padding
 margin
 position
 
+--------
+
 ## Basic Layout with CSS Flexbox
+
+--------
 
 ## Exercise
 
+{{% /section %}}
+{{% section %}}
+
 # Publishing Your Website
+
+--------
 
 ## Github Pages
 
+--------
+
 ## Creating a Repository
 
+--------
+
 ## Commit Your Code
+
+--------
 
 ## Enable Github Pages
 Now we will teach you how to [Create a GitHub pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
@@ -712,7 +784,14 @@ Right. Now, how to create a GitHub pages site for your website from your GitHub 
  5. select the main branch or whichever branch of your repo you want your website to be built from
  6. click save
  7. wait a few minutes for your website to publish
+
+--------
+
 ## View Your site!
+
+{{% /section %}}
+{{% section %}}
 
 # Conclusion
 
+{{% /section %}}

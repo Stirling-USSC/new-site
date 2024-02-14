@@ -30,6 +30,8 @@ conception!
 
 [sysv]: <https://en.wikipedia.org/wiki/UNIX_System_V>
 
+--------
+
 ## Command Lines and Shells?
 
 > A Unix shell is both a command interpreter and a programming language. As a command interpreter, the shell provides the
@@ -51,6 +53,8 @@ Shells let you:
 
 It acts as an interface between the user and the kernel, the core part of the operating system.
 
+--------
+
 ## Why not use a GUI?
 
 These days we're used to interacting with computers in a visual fashion, using a graphical user interface with windows,
@@ -62,6 +66,8 @@ offers efficiency and flexibility, allowing for precise control over system func
 
 Programmers and system administrators often prefer the CLI for its scripting and automation  capabilities, and resource
 efficiency (text takes up much less memory than bitmap graphics to be displayed on a screen).
+
+--------
 
 ## What We'll Cover
 
@@ -88,6 +94,8 @@ efficiency (text takes up much less memory than bitmap graphics to be displayed 
     * Pipes and filters
 * Environment variables
 * The search path
+
+--------
 
 ## What You'll Need
 
@@ -117,6 +125,8 @@ efficiency (text takes up much less memory than bitmap graphics to be displayed 
 
 ::::::
 
+--------
+
 ## The Prompt
 
 When you launch your terminal for the first time, you'll see something like this:
@@ -137,7 +147,11 @@ The parts of the prompt are:
 
 [^3]: If a command hangs and you'd like to cancel it, press `ctrl+c`.
 
+--------
+
 # Basic file management commands
+
+--------
 
 ## Listing Files
 
@@ -183,6 +197,8 @@ blirc   edith                   forks         lege   lower-elements  mundistry  
 circed  embedded-linux-testing  haven-backup  leged  lua-reactor     old        qirc           skitz            skitz-py   tmp
 ```
 
+--------
+
 ## Printing the Contents of a File
 
 Let's see what's inside the `README.txt` file with the `cat` command:
@@ -207,6 +223,8 @@ Make sure you only try to cat out text files. If you try catting binary files, t
 to your terminal, which will likely mess it up. If you do this by mistake, type `reset` and press enter, that should fix
 your terminal.
 
+--------
+
 ## Other File Management Commands
 
 * `cp file1 file2` copies a file from `file1` to `file2`
@@ -220,6 +238,8 @@ your terminal.
 * `rm -r dir` recursively deletes the directory `dir` and all of its contents. Be careful with this one!
 * `stat path` lists various pieces of metadata for the file or directory at the specified path
 * `du -h path` calculates the size of `path`. `-h` means to print the size in human readable format
+
+--------
 
 ## File paths
 
@@ -267,7 +287,11 @@ mikey@mikeys-thinkpad:~$ pwd
 
 [zsh]: <https://www.zsh.org/>
 
+--------
+
 # Shell Shortcuts
+
+--------
 
 ## Tab completion
 
@@ -304,6 +328,8 @@ their commands, check on the web to see if your favourite software can install b
 
 [^5]: If you're using a shell that isn't bash, like [ZSH][zsh], tab completion may work slightly differently. Experiment
   by pressing `tab` at different points while typing a command to see how it works in your shell.
+
+--------
 
 ## Shell Globbing
 
@@ -351,6 +377,8 @@ rm *
 deleted files in the command line, so if you run these commands in the wrong directory, you could easily delete the
 wrong data, and even break your operating system!
 
+--------
+
 ## Aliases and shell configuration
 
 The last way we'll explore to shorten the amount of time you spend typing commands is aliases. They let you create a
@@ -372,6 +400,8 @@ Hit:4 http://ppa.launchpad.net/pipewire-debian/pipewire-upstream/ubuntu jammy In
 # ... so on
 ```
 
+--------
+
 ## Shell keybindings
 
 Typed a command slightly wrong and wish you could edit it? Want to run a similar, but not identical command to the last
@@ -388,7 +418,11 @@ start typing a part of the command. This looks like this:
 Here I've searched for "cd .. " and you can see the command I typed earlier. I can press the `left` and `right` arrow
 keys to edit it, or just press `return` to execute it again.
 
+--------
+
 # Common command conventions
+
+--------
 
 ## Arguments
 
@@ -405,6 +439,8 @@ followed by almost every command you'll use on a daily basis:
       `--version` to print the program's version information
 * The remaining arguments are usually the names of input or output files
 
+--------
+
 ## Output
 
 Most Unix commands that perform some action, such as deleting a file, print nothing when they succeed. This may seem
@@ -417,6 +453,8 @@ rm: cannot remove 'test': Is a directory
 mikey@mikeys-thinkpad:~$ rm -r test
 mikey@mikeys-thinkpad:~$ # No output
 ```
+
+--------
 
 ## Command Documentation
 
@@ -463,7 +501,11 @@ rbash (1)            - restricted bash, see bash(1)
 The numbers in brackets indicate sections of the manual. Most man-pages you'll want to read will be in section 1
 "General Commands Manual" or section 8 "System Managers Manual"
 
+--------
+
 # Text Processing
+
+--------
 
 ## Searching Through Files with `grep`
 
@@ -513,6 +555,8 @@ Some common grep options are:
 * `-i` or `--ignore-case`: Perform a case insensitive search
 * `-v` or `--invert-match`: Print all lines that do *not* match, inverting the search
 * `-r` or `--recursive`: Search an entire directory of files, including files in subdirectories
+
+--------
 
 ## Redirection and the standard streams
 
@@ -578,6 +622,8 @@ grep: abcde: No such file or directory
 
 This may seem useless right now, but it will soon be obvious why it's needed.
 
+--------
+
 ## Pipes and filters
 
 Redirecting output into files is great, but we haven't yet discussed one of the most powerful features of the Unix
@@ -639,7 +685,11 @@ mikey@mikeys-thinkpad:~$ ls --help 2>&1 | nano +1 -
 * `+1`: Tells `nano` to put the cursor on the first line, instead of the last one
 * `-`: Explicitly tells `nano` to read from stdin, otherwise it would just open a blank file
 
+--------
+
 # Environment variables and the search path
+
+--------
 
 ## Shell Variables
 
@@ -684,6 +734,8 @@ mikey@mikeys-thinkpad:~$ head $ldir/Apache-2.0
       "License" shall mean the terms and conditions for use, reproduction,
 mikey@mikeys-thinkpad:~$ cp $ldir/Apache-2.0 apache-2-license.txt
 ```
+
+--------
 
 ## Turning Shell Variables into Environment Variables
 
