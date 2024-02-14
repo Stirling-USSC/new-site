@@ -4,6 +4,7 @@ subtitle: University of Stirling Society of Computing
 author: Michael Connor Buchan <mib00150@students.stir.ac.uk>
 date: 2023-11-17
 draft: false
+outputs: [Reveal]
 ---
 
 ## Unix?
