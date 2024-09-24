@@ -1,7 +1,7 @@
 ---
-title: "QR Code Redirect"
+title: "USCC on Discord"
 layout: redirect
-redirectURL: "https://linktr.ee/stirlingcomputerclub"
+redirectURL: "https://discord.gg/qWQQAE772B"
 ---
 
 {{- template "_internal/alias.html" (dict "Permalink" .Params.redirectURL) -}}
