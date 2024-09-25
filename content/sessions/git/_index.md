@@ -13,7 +13,7 @@ Join us on social media to stay in the loop, and learn about upcoming sessions a
 
 ----------------------------------------
 
-# Committing to Git
+# Effective Git
 
 *Michael Connor Buchan* <mikey@blindcomputing.org>
 
